@@ -1,7 +1,7 @@
 {
-  "name": "react-data-grid",
-  "version": "6.0.1",
-  "description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
+  "name": "@dhorn/react-data-grid",
+  "version": "1.0.0",
+  "description": "NOTE: Original is react-data-grid by adazzle. This is merely a fork with a small performance patch for large data grids in chrome. Description from adazzle: Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
   "scripts": {
     "beforepublish": "node ../../ci/publish/replacePackageEntry react-data-grid true",
     "postpublish": "node ../../ci/publish/replacePackageEntry react-data-grid",
@@ -11,10 +11,18 @@
     "react",
     "react-data-grid",
     "data-grid",
-    "core"
+    "core",
+    "chrome",
+    "lag",
+    "fix",
+    "performance",
+    "large",
+    "scrolling",
+    "stutter",
+    "crash"
   ],
-  "repository": "adazzle/react-data-grid",
-  "author": "Adazzle",
+  "repository": "DHorn/react-data-grid",
+  "author": "dhorn",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.0.0",

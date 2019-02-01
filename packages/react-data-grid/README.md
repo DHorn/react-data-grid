@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-npm install --save react-data-grid
+npm install --save @dhorn/react-data-grid
 ```
 
 ## Usage
