@@ -142,6 +142,9 @@ class Viewport extends React.Component {
   }
 
   resetScrollStateAfterDelay = () => {
+    if (this.state.isScrolling) {
+      return;
+    }
     this.clearScrollTimer();
     this.resetScrollStateTimeoutId = setTimeout(
       this.resetScrollStateAfterDelayCallback,
