@@ -1,6 +1,6 @@
 {
   "name": "@dhorn/react-data-grid",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "NOTE: Original is react-data-grid by adazzle. This is merely a fork with a small performance patch for large data grids in chrome. Description from adazzle: Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
   "scripts": {
     "test": "npm test"
